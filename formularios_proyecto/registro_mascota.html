@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Animalia - Registro de Mascota</title>
+</head>
+<body>
+    <h2>Registrar Mascota</h2>
+    <form action="#" method="POST">
+        <label for="ceduladueno">Cedula del dueño:</label>
+        <input type="number" id="ceduladueno" name="ceduladueno" required>
+        <br><br>
+        <label for="nombres">Nombre(s) de la mascota:</label>
+        <input type="text" id="nombres" name="nombres" required>
+        <br><br>
+        <label for="especie">Especie:</label>
+        <select id="especie" name="especie" required>
+            <option value="">Seleccione una especie</option>
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="ave">Ave</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br><br>
+        <label for="raza">Raza:</label>
+        <input type="text" id="raza" name="raza">
+        <br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        <br><br>
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="">Seleccione el sexo</option>
+            <option value="macho">Macho</option>
+            <option value="hembra">Hembra</option>
+        </select>
+        <br><br>
+        <label for="Peso">Peso:</label>
+        <input type="number" id="Peso" name="Peso" step="0.01" required>
+        <br><br>
+        <button type="submit">Guardar Mascota</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
